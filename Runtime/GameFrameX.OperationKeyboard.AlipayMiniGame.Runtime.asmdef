@@ -1,0 +1,24 @@
+{
+    "name": "GameFrameX.OperationKeyboard.AlipayMiniGame.Runtime",
+    "rootNamespace": "GameFrameX.OperationKeyboard.AlipayMiniGame.Runtime",
+    "references": [
+        "GameFrameX.Runtime",
+        "GameFrameX.OperationKeyboard.Runtime",
+        "AlipaySDKRuntime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.alipay.alipaysdk",
+            "expression": "",
+            "define": "ENABLE_ALIPAY_MINI_GAME_OPERATIONKEYBOARD"
+        }
+    ],
+    "noEngineReferences": false
+}
