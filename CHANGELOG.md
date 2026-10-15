@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/gameframex/com.gameframex.unity.operationkeyboard.alipayminigame/compare/1.0.0...1.0.1) (2026-10-15)
+
+
+### Bug Fixes
+
+* **alipayminigame:** Preserve 改为全限定特性引用 ([2a9603e](https://github.com/gameframex/com.gameframex.unity.operationkeyboard.alipayminigame/commit/2a9603e93533762a7bf8021e28374e4aa9fc1e75))
+
 # 1.0.0 (2026-10-14)
 
 
