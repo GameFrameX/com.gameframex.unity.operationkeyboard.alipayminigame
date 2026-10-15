@@ -28,7 +28,6 @@
 //  ==========================================================================================
 
 using UnityEngine;
-using UnityEngine.Scripting;
 
 namespace GameFrameX.OperationKeyboard.AlipayMiniGame.Runtime
 {
@@ -36,12 +35,12 @@ namespace GameFrameX.OperationKeyboard.AlipayMiniGame.Runtime
     /// 支付宝小游戏键盘渠道防裁剪助手。
     /// </summary>
     /// <remarks>
-    /// 宏墙启用时以编译期类型引用保留渠道注册链，配合各类型自身的 [Preserve]。
+    /// 宏墙启用时以编译期类型引用保留渠道注册链，配合各类型自身的 [UnityEngine.Scripting.Preserve]。
     /// </remarks>
-    [Preserve]
+    [UnityEngine.Scripting.Preserve]
     public class GameFrameXOperationKeyboardAlipayMiniGameCroppingHelper : MonoBehaviour
     {
-        [Preserve]
+        [UnityEngine.Scripting.Preserve]
         private void Start()
         {
 #if UNITY_WEBGL && ENABLE_ALIPAY_MINI_GAME && ENABLE_ALIPAY_MINI_GAME_OPERATIONKEYBOARD
