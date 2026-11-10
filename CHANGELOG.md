@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/gameframex/com.gameframex.unity.operationkeyboard.alipayminigame/compare/1.0.1...1.0.2) (2026-11-10)
+
+
+### Bug Fixes
+
+* **operationkeyboard.alipayminigame:** 添加完整 link.xml 防代码裁剪保护 ([926b305](https://github.com/gameframex/com.gameframex.unity.operationkeyboard.alipayminigame/commit/926b305ac3174d22f81a1bab5c22703aa1fcb944))
+
 ## [1.0.1](https://github.com/gameframex/com.gameframex.unity.operationkeyboard.alipayminigame/compare/1.0.0...1.0.1) (2026-10-15)
 
 
